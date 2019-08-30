@@ -22,9 +22,9 @@
 .confTitleBox {
     color: white;
     min-height: 180px;
-    border-top: 3px solid #234173;
-    border-bottom: 1px solid #0f4c80;
-    background: #1a64a0 url("../../images/conf/sprites_blue.png") repeat-x scroll 0 -24px;
+    border-top: 0px solid #ffffff;
+    border-bottom: 0px solid #ffffff;
+    background: #ffffff url("../../images/conf/sprites_blue.png") repeat-x scroll 0 -24px;
 }
 
 /*
@@ -40,11 +40,12 @@
     The box containing the logo. By the default the logo is placed 
     on the left of the conference title.
 */
+/*
 .confLogoBox {
     float: left;
     padding-right: 10px;
 }
-
+*/
 /*
     The style for the title text.
 */
@@ -57,44 +58,48 @@
 /*
     Wrapper around the bottom part of the conference header 
 */
+
 .confSubTitleBox {
-    min-height: 45px;
-    background: #f5faff url("../../images/conf/sprites_blue.png") repeat-x 0 -213px;
-    border-bottom: 1px solid #d5e4f1;
-    border-top: 1px solid #d5e4f1;
+    color: white;
+    border-top: 0px solid #ffffff;
+/*    border-bottom: 0px solid #ffffff;*/
+    background: #ffffff;
 }
 
 /*
     The content of the lower part of the header. Is by default
     centered and has a fixed width.
 */
+/*
 .confSubTitleContent {
     width: 950px;
     margin: 0 auto;
     font-family: Verdana;
     font-size: 11pt;
-    color: #24425a;
+    color: #0200C6;
 }
-
+*/
 /*
     Style for links in the lower part of the header
-*/
+
 .confSubTitle a {
     font-family: Verdana;
     font-size: 11pt;
 }
-
+*/
 /*
     Styles for the date and place information.
 */
+/*
 .datePlace {
     font-family: verdana,arial,sans-serif;
-    font-size: 12pt;
+    font-size: 0pt;
 }
-
+*/
 /*
     Styles for the searchbox
 */
+/*
 .confSearchBox {
     float: right;
     background: transparent url("../../images/conf/sprites_blue.png") no-repeat 0 0;
@@ -105,40 +110,44 @@
 .confSearchBox .searchField {
     color: black;
 }
-
+*/
 /*
     Styles for the nowHappening information
 */
+/*
 .nowHappening .nowHappeningText {
-    margin-right: 5px;
+    margin-right: 0px;
     float: left;
 }
-
+*/
 /*
     Announcement styles
 */
+
+/*
 .simpleTextAnnouncement {
-    background: #F5FAFF url(../../images/conf/sprites_blue.png) repeat-x scroll 0 -400px;
-    border-top: 1px solid #c2d6e7;
+    background: #ffffff url(../../images/conf/sprites_blue.png) repeat-x scroll 0 -400px; 
+    border-top: 0px solid #ffffff;
     font-family: Verdana;
     font-weight: bold;
     font-size: 10pt;
     text-align: center;
-    color: #0f283d;
+    color: #ffffff;
 }
 
-
+*/
 /* ----------- Styles for the main content ----------- */
 
 /*
     The wrapper around the menu and the page content.
     By default centered with a fix width.
 */
+/*
 #confSectionsBox {
     width: 950px;
     margin: 0 auto;
 }
-
+*/
 
 
 /* ----------- Styles for the menu ----------- */
@@ -151,15 +160,15 @@
 */
 .conf_leftMenu {
     float:left;
-    width:200px;
+    width:220px;
 } 
 
 /*
     Styles for the menu box
 */
 #outer {
-    background: #f5eedb;
-    border: 1px solid #64615a;
+    background: #d8d8d8;
+    border: 1px solid #0c0c0c;
 }
 
 /*
@@ -226,5 +235,11 @@ li ul.inner li a {
     Wrapper around the content
 */
 .confBodyBox {
-    margin-left:230px;
+    margin-left:270px;
+	aaa
 }
+
+
+
+
+
