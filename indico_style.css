@@ -160,7 +160,7 @@
 */
 .conf_leftMenu {
     float:left;
-    width:220px;
+    width:200px;
 } 
 
 /*
@@ -235,7 +235,7 @@ li ul.inner li a {
     Wrapper around the content
 */
 .confBodyBox {
-    margin-left:270px;
+    margin-left:230px;
 	aaa
 }
 
